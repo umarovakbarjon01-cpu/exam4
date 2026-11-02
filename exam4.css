@@ -344,8 +344,31 @@
     justify-content: center;
     text-align: center;
 }
-
-
+.header69{
+    background-color: black;
+    width: 1200px;
+    margin: auto;
+    height: 600px;
+}
+.s2hh{
+    color: white;
+    font-size: 40px;
+}
+.header70{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+}
+.header72{
+  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
 
 
 
@@ -494,12 +517,19 @@
     .header65{
         display: flex;
         flex-direction: column;
-        gap:20px;
+        gap:40px;
         
     }
     .header66{
         width: 90%;
         margin: auto;
+    }
+    .header69{
+        margin: auto;
+        width: 98%;
+        margin-top: 400px;
+        border-radius: 10px;
+        height: 500px;
     }
 
     
