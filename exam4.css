@@ -83,7 +83,9 @@
 }
 .header17{
     display: flex;
-    justify-content: space-around;
+   align-items: center;
+    justify-content: center;
+    gap:100px;
 }
 .header18{
     display: flex;
@@ -92,7 +94,7 @@
     width: 500px;
     margin-top: 100px;
 }
-.header20{
+.header20,.header29{
     width: 200px;
     height: 60px;
     border: none;
@@ -103,10 +105,61 @@
 .header21{
     margin-top: 50px;
 }
-.header16,.header19{
+.header16,.header19,.header28,.header31{
     color:#1178B2;
 }
-
+.header23{
+    width: 100%;
+    height: 450px;
+    margin: auto;
+}
+.header24{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+}
+.header25{
+    margin-top: 70px;
+}
+.header27{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 500px;
+    margin-top: 100px;
+}
+.header30{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+.header31{
+    text-align: center;
+}
+.header32{
+    display: flex;
+    gap:50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.header34{
+    font-size: 85px;
+    color:#1178B2
+}
+.header33{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 15px gray;
+    box-shadow: -1px -1px 15px gray;
+}
 
 
 
@@ -180,6 +233,34 @@
     }
     .header22{
         width:95%;
+    }
+    .header24{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        padding-top: 300px;
+    }
+    .header27{
+          width: 90%;
+          align-items: center;
+    }
+    .header29,.header20{
+        width: 90%;
+    }
+    .header30{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+        padding-top: 700px;
+        align-items: center;
+    }
+    .header32{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
     
     
