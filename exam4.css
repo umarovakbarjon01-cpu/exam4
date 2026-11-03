@@ -486,10 +486,48 @@
 }
 .header92{
     display: flex;
+    flex-direction: column;  
+}
+.header96{
+    margin-top: 50px;
+    color:#016CA8;
+    padding: 20px;
+}
+.header95{
+    width: 100%;
+    height: 700px;
+    margin: auto;
+}
+.header97{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header98{
+    width: 320px;
+    height: 280px;
+    background-color:white;
+    display: flex;
     flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     box-shadow: 1px 1px 15px gray;
+    box-shadow: -1px -1px 15px gray;
+}
+.header99{
+    font-size: 80px;
+    color:#88BBD8;
     
 }
+.header100{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:50px;
+    margin: auto;
 
+}
 
 
 @media(max-width:500px){
@@ -660,21 +698,32 @@
         margin: auto;
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 80%;
         height: 150px;
         text-align: center;
+    }
+    .header75{
+        text-align: center;
+        width: 90%;
     }
     .header74{
         width: 90%;
         height: 150px;
         text-align: center;
     }
+    .header76{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
     .header80{
+        width: 90%;
+        margin: auto;
         height: 100px;
         text-align: center;
     }
     .header86{
-        width: 90%;
+        width: 80%;
         margin: auto;
         display: flex;
         align-items: center;
@@ -692,6 +741,30 @@
     }
     .header92{
         display: flex;
+    }
+    .header90{
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+    .header95{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        width: 100%;
+    }
+    .header98{
+        width: 90%; 
+    }
+    .header97{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        margin: auto;
+        align-items: center;
+    }
+    .header96{
+        text-align: center;
     }
     
     
