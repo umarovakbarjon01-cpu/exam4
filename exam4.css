@@ -690,7 +690,7 @@
     justify-content: center;
 }
 .header137{
-    height: 400px;
+    height:auto;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -699,6 +699,33 @@
 }
 .header140{
     display: flex;
+}
+.header141{
+    width: 100%;
+    height: 500px;
+    background-image: url(./Rectangle\ 1992.png);
+     display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+}
+.header142{
+    width: 700px;
+}
+.header143,.header144{
+    color:white;
+}
+.header145{
+    width: 150px;
+    height: 50px;
+    background-color: #016CA8;
+    color:white;
+    border-radius: 10px;
+    border: none;
 }
 
 
@@ -1035,6 +1062,7 @@
     }
     .header131{
         width: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -1047,6 +1075,20 @@
         display: flex;
         flex-direction: column;
     }
-    
-    
+    .header141{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .header142{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:15px;
+        height: 700px;
+    }
+
 }
